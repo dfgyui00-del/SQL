@@ -381,3 +381,31 @@ SELECT
 	 , PATIENT_NAME;
 	   
 	   
+
+/*
+git init	'최초 1번만 입력' (master) 뜸
+
+git status			추적 되었는지 확인하기
+
+git add .			. 은 전부 추적해줘  &&   파일명 전부 적기
+
+git config --global user.email "you@example.com"	->"자신 이메일 적기"			(1회 적용)
+
+git config --global user.name "Your Name"		-> "자신 깃허브에 저장된 이름"	(1회 적용)
+
+
+git commit -m "init : 저장소 초기화 작업"	->  "" = "설명 적기"
+
+
+git remote add origin https://github.com/dfgyui00-del/SQL.git	-> 깃허브 주소 알려주기
+
+git remote add origin 자신의 깃허브 주소
+
+
+git push -u origin master				-> 브랜치 master로 보내기(저장)
+
+
+git add .						<-파일추가시
+git commit -m "작업한 내용"			<- 계속 작성
+git git push -u origin master			<- 마지막에 올리기
+*/
